@@ -1,0 +1,33 @@
+.body {
+  margin: 0 auto;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+.container {
+  position: absolute;
+  max-width: 960px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-family: 'Comfortaa', cursive;
+}
+
+label,
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+  font-family: 'Roboto', san-serif;
+  display: block;
+}
+button,
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
